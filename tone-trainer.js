@@ -1476,7 +1476,7 @@ import { PitchDetector } from './pitchy.js';
     const glossEl = $('tone-cal-gloss'); if (glossEl) glossEl.textContent = w.gloss;
     const prog = $('tone-cal-progress');
     if (prog) prog.textContent = 'Word ' + (calWordIdx + 1) + ' of ' + CAL_WORD_COUNT;
-    setCalStatus('Tap once and say the word — it stops on its own.', '');
+    setCalStatus('Tap the Record button and say the word.', '');
   }
 
   function closeCalModal() {
