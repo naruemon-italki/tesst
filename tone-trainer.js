@@ -53,7 +53,7 @@ import { PitchDetector } from './pitchy.js';
   // its panel). false => the whole debug section is hidden and never wired, so
   // it doesn't appear in the live trainer. Flip to true to restore it exactly as
   // before (capture logging, intended-tone picker, copy/download log).
-  const SHOW_DEBUG = false;
+  const SHOW_DEBUG = true;
 
   // ---- Voice Activity Detection (VAD) ----
   // We only keep frames that are actually SPEECH. A frame counts as speech when
